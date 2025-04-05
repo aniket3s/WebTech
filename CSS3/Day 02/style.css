@@ -46,7 +46,7 @@ p::after{
   background-color: bisque;
 } */
 
-ul>#mango::marker{
+/* ul>#mango::marker{
   content: "🥭";
 }
 ul>#apple::marker{
@@ -54,4 +54,22 @@ ul>#apple::marker{
 }
 ul>#guava::marker{
   content: "" ;
+} */
+
+li:first-child{
+  font-style: bold;
+}
+div>p
+{
+  color: yellowgreen;
+}
+.text_important{
+  background-color: aqua;
+}
+a:link{
+  color:yellow;
+}
+tr:nth-child(even)
+{
+  
 }

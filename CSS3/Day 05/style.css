@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+div{
+    vertical-align: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    /* background-color: rgb(255,210,200); */
+    /* background-color: rgb(90, 63, 63); */
+
+    /* background-color: #ff000000; 
+    background-color: #9900ff;
+    background-color: #881111;
+    background-color: #5555ff; */
+
+    background-color: hsl(100deg, 100%, 50%, 1);
+    position: absolute;
+}
+h1{
+    position: absolute;
+}
